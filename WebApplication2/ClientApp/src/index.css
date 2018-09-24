@@ -1,0 +1,25 @@
+.local, .server {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+textarea {
+    margin-top: 2rem;
+    width: 25rem;
+    height: 10rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 767px) {
+    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+    body {
+        padding-top: 50px;
+    }
+}
